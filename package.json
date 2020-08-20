@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "block chain test",
   "scripts": {
-      "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,14 +19,16 @@
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
     "@babel/node": "^7.10.5",
-    "graphql": "^15.3.0",
+    "@babel/preset-env": "^7.11.0",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
     "nodemon": "^2.0.4",
     "yoga": "^0.0.20"
   },
   "devDependencies": {
-    "nodemon": "2.0.4",
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
-    "@babel/node": "^7.10.5"
+    "@babel/node": "^7.10.5",
+    "nodemon": "^2.0.4"
   }
 }
